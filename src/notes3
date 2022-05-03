@@ -1,0 +1,112 @@
+<html>
+
+<head>
+  <title>Food Court Javascript Tutorial for Beginners</title>
+  <meta name="Description" content="JS Projects,Cart in js,Javascript Tutorial,Javascript Tutorial for Beginners, Javascript Complete Tutorial"/>
+<meta name="Keywords" content="Javascript,#tutorjoes,Programming,Tutorial,Javascript Tutorial,HTML,CSS,JS"/>
+  <link rel="stylesheet" href="https://www.tutorjoes.in/css/food.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+  <div class="navbar">
+    <div class="navbar-banner">
+      Joe's Kitchen
+    </div>
+
+    <div class="nav-cart">
+      <i class="fa fa-shopping-cart"></i>
+      <div class="cart-items">0</div>
+    </div>
+  </div>
+
+  <div class="slider">
+    <div class="brand-banner">
+      <h3>Joe's Kitchen</h3>
+      <p>Have a break Eat Fresh..!</p>
+    </div>
+  </div>
+
+  <div class="menu-item">
+    <ul>
+      <li><a href="#" class="menu" data-title="Latest Products" data-id="latest">Latest</a></li>
+      <li><a href="#" class="menu" data-title="Favourite" data-id="fav">Favourite</a></li>
+      <li><a href="#" class="menu" data-title="Vegetarian" data-id="Veg">Veg</a></li>
+      <li><a href="#" class="menu" data-title="Non Vegetarian" data-id="Non-Veg">Non Veg</a></li>
+      <li><a href="#" class="menu" data-title="Juice" data-id="Juice">Juice</a></li>
+      <li><a href="#" class="menu" data-title="Cakes" data-id="Cake">Cakes</a></li>
+      <li><a href="#" class="menu" data-title="Sweets" data-id="Sweet">Sweets</a></li>
+      <li><a href="#" class="menu" data-title="Ice Cream" data-id="IceCream">Ice Cream</a></li>
+      <li><a href="#" class="menu" data-title="Pizza" data-id="Pizza">Pizza</a></li>
+      <li><a href="#" class="menu" data-title="Soups" data-id="Soup">Soup</a></li>
+    </ul>
+  </div>
+
+  <div class="products">
+    <h3 id="txtFoodType">Loading...</h3>
+    <div class="products-container">
+      <!--
+      <div class="product">
+        <div class="img-container">
+          <img src="./images/pro.jpg" alt="Product Name" class="product-img" />
+        </div>
+        <h3>Product Name</h3>
+        <h4>Shop</h4>
+        <h5><span>Type</span> Rs.0.00</h5>
+        <button class="btn-item" data-id="">
+          <i class="fa fa-shopping-cart"></i>
+          add to cart
+        </button>
+        <button class="btn-fav"  data-id="" ><i class="fa fa-heart"></i></button>
+      </div>
+    -->
+    </div>
+
+    <div class="cart-overlay cart-overlay-close">
+      <div class="cart">
+        <span class="btn-close-cart"><i class="fa fa-window-close"></i></span>
+        <h2>Your Cart Products</h2>
+        <div class="cart-content">
+          <!-------------------Cart Item start -------------------------->
+
+          <!--<div class="cart-item">
+            <img src="./images/pro.jpg" alt="Product Name">
+            <div>
+              <h4>Product Name</h4>
+              <h5>Rs 985.00</h5>
+              <span class="remove-item">Remove</span>
+            </div>
+            <div>
+              <i class="fa fa-plus"></i>
+              <p class="item-amount">
+                1
+              </p>
+              <i class="fa fa-minus"></i>
+            </div>
+          </div>
+          ---->
+
+
+
+
+
+          <!-------------------Cart Item End -------------------------->
+        </div>
+
+        <div class="cart-footer">
+          <h3>Total Amount Rs: <span class="cart-total">0</span></h3>
+          <button class="btn btn-clear-cart">clear cart</button>
+        </div>
+
+
+
+      </div>
+    </div>
+
+    <div class="footer">
+      <p>Copyright &copy; 2022 Designed By <a href="https://www.tutorjoes.in">Tutor Joes</a></p>
+    </div>
+	<script src="https://www.tutorjoes.in/js/food.js"></script>
+</body>
+
+</html>
